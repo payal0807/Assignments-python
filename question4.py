@@ -1,13 +1,30 @@
-#getsizeof() returns the memory size (in bytes ) occupied by an object
+#Write a program which accepts one number and prints cube of that number 
 
-from sys import getsizeof
+def Cube(no1):
+    ans = no1*no1*no1
+    return ans
 
-x = 10
-print(getsizeof(x))
-# 28
 
-name = ("payal")
-print(getsizeof(name))
+def main():
+    print("Enter one number:")
+    no1=int(input())
 
-height = (5.5)
-print(getsizeof(height))
+    ans = Cube(no1)
+    print("Cube of given number is:",ans)
+
+if __name__=="__main__":
+    main()
+
+
+
+
+#program without function
+def main():
+    no = int(input("Enter number:"))
+
+    ans = no*no*no
+    print(ans)
+
+if __name__ == "__main__":
+    main()
+    
