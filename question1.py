@@ -1,15 +1,15 @@
-def Multiplication(Value1,Value2):
-    Ans = Value1 *Value2
-    return Ans
+#Write a program which accepts one number and prints multiplication table of that number
+def table(no):
+    for  i in range(1,11):
+        print (i*no,end = " ")
+
 
 
 def main():
-    No1= int(input("enter first no:"))
+    num =  int(input("Enter a number:"))
+    Ret=table(num)
+    
 
-    No2=int(input("enter second no:"))
 
-    ret = Multiplication(No1,No2)
-    print("Multiplication is:",ret)
-
-if __name__=="__main__":
+if __name__ == "__main__":
     main()

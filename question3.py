@@ -1,9 +1,33 @@
-lst = [10,20,30]
-tpl = (10,20,30)
+#Write a Program which accepts one number and prints square of that number
 
-lst[0] = 100
-tpl[0] = 100 #Error
+def Square(no1):
+    ans = no1*no1
+    print ("The square of given number is",ans)
 
-#As we Know tuple is immutable,it cant change values inside tuple
-#5th line will raise an error 
 
+
+def main():
+    print("Take one number:")
+    no1=int(input())
+
+    Square(no1)
+
+
+if __name__=="__main__":
+    main()
+
+
+#program without creating function
+
+def main():
+    no=int(input("Enter number:"))
+
+    ans = no*no
+    print(ans)
+    
+     
+    
+
+
+if __name__=="__main__":
+    main()
