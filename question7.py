@@ -1,11 +1,6 @@
-a = 5
-print(type(a))
+d = {1: "One" , 1: "ONE", 2: "Two"}
+print(d)
 
-a=5.5
-print(type(a))
-
-a = "Python"
-print(type(a))
-
-#because Python is dynamically typed language,it can  change its data type based on neccessity
-#As it is loosely coupled ,we can modify any time ,by changing the value (data)
+#Here key is same ; duplicate keys are not allowed in dictionary 
+#keys must be unique
+#here value is being overwrite ,so will not get expected output
