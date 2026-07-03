@@ -1,15 +1,11 @@
-import sys
+x = None
 
-x =  eval(input("Enter value:"))
-print("Data Type is:",(type(x)))
+print(type(x))
+print(x == False)
 
-print("memory Adress :",(id(x)))
+#output
+#<class 'NoneType'>
+#False
 
-print("Size in Bytes:",sys.getsizeof(x))
-
-
-
-
-
-
-
+#Because  as we have assigned x as none and its data type is = none type
+#print(x == False)  In this given condition x is not equal to False because false is boolean data type ,thats why it return false 

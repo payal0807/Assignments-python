@@ -1,22 +1,7 @@
-#Function without Parameters
-#does not accept the input value
+b = bytes ([65,66,67])
+print(b)
 
-def demo():
-    print("Welcome to Python")
-
-demo() 
-
-
-#Function with Parametrs
-
-# which accept the input value through parameters
-
-def Addition(Value1,Value2):
-    Ans=Value1+Value2
-    return Ans
-
-def main():
-    Ans=Addition(10,20)
-    print(Ans)
-if __name__=="__main__":
-    main()    
+# The numbers 65,66,67 are ASCII values 
+#Python converts these numbers into their corresponding characters  and displays output
+# b'ABC
+# The b before 'ABC shows that it is a bytes object
