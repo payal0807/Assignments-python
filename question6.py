@@ -1,11 +1,11 @@
-print("enter first number:")
-no1 = int(input())
+x = None
 
-print("enter second number:")
-no2 = int(input())
+print(type(x))
+print(x == False)
 
-print("addition of two number is:",no1+no2)
-print("subtraction of two number is:",no1-no2)
-print("multiplication of two number is:",no1*no2)
-print("division of two number is:",no1/no2)
+#output
+#<class 'NoneType'>
+#False
 
+#Because  as we have assigned x as none and its data type is = none type
+#print(x == False)  In this given condition x is not equal to False because false is boolean data type ,thats why it return false 

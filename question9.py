@@ -1,5 +1,3 @@
-x =  input("enter your name:")
-y = int(input("enter your age "))
-
-
-print("hello",x,"you will turn",y + 1, "next year") 
+r = range(5)
+print(r)
+print(list(r))
