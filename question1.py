@@ -1,15 +1,10 @@
-#Write a program which accepts one number and prints multiplication table of that number
-def table(no):
-    for  i in range(1,11):
-        print (i*no,end = " ")
+#Write a program which containe one function named as display that prints jayganesh on console 
 
-
+def Display():
+    print("Jay Ganesh...")
 
 def main():
-    num =  int(input("Enter a number:"))
-    Ret=table(num)
-    
+    Display()
 
-
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
