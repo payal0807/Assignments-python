@@ -1,17 +1,34 @@
-s = "Python"
-print(id(s))
+# Print example
 
-s= s + "3"
-print(id(s))
 
-#yes there is change in ID
-#as string is immutable ,we cant modifiy the characters inside it directly once created
-#Instead it create a new string object and makes variable point to that object 
+def First():
+    print("Welcome to marvellous")
 
-#here in above example we cant change python direct , but we can create another string object  and makes variable point to that object
+def main():
+    First()
 
-#output for id 
-#2347984424752
-#2347984726480
+if __name__ =="__main__":
+    main()
+
+#Here only print statement will print because there is no return statement in First()
+#print statement will only display on console but no return value
+
+#Return Statement
+
+def Demo(a,b):
+    Ans= a+b
+    return 21
+
+def main():
+    Ret = Demo(10,20)
+    print(Ret)
+
+if __name__ =="__main__":
+    main()
+
+
+#Here return statement is used in fnction Demo() ,thats why when function is being call it will return 21 value 
+#return sends value back to caller
+#if a function does not use return ,it will return None by default 
 
 
